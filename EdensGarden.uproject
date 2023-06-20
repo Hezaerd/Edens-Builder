@@ -1,0 +1,66 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.0",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "EdensGarden",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule",
+				"CoreUObject",
+				"UMG"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "OpenXREyeTracker",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"HoloLens",
+				"Android"
+			]
+		},
+		{
+			"Name": "OpenXRHandTracking",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"HoloLens",
+				"Android"
+			]
+		},
+		{
+			"Name": "OpenXR",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android",
+				"HoloLens"
+			]
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Android"
+			]
+		}
+	]
+}
